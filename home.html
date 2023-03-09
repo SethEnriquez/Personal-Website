@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seth Enriquez</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script type="text/javascript" src="./scripts.js" defer></script>
+  </head>
+  <body class="bg-gray-300">
+    <header class="bg-gray-800 p-4 fixed top-0 w-full z-50 shadow-xl">
+      
+      <!--Start of Nav Bar-->
+      <nav class="flex justify-center">
+        <ul class="flex">
+          <li class="mr-6">
+            <a class="text-white font-bold text-lg hover:text-gray-400" href="#experience">Experience</a>
+          </li>
+          <li class="mr-6">
+            <a class="text-white font-bold text-lg hover:text-gray-400" href="#education">Education</a>
+          </li>
+          <li>
+            <a class="text-white font-bold text-lg hover:text-gray-400" href="#skills">Skills</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Start of Nav Bar-->
+      
+    </header>
+    
+    <div class="flex items-center justify-center h-screen bg-cover" style="background-image: url('pawel-nolbert-62OK9xwVA0c-unsplash.jpg');">
+        <div class="text-center">
+          <h1 class="text-8xl font-bold text-white">Seth Enriquez</h1>
+          <p class="text-2xl text-white mb-6">IT Professional</p>
+          <img src="circle-profile.png" alt="Profile Photo" class="rounded-full w-80 h-80 mx-auto">
+          <div class="flex mt-6 justify-center">
+            <a href="#">
+              <i class="fab fa-linkedin fa-2x text-white mx-4"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-github fa-2x text-white mx-4"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter fa-2x text-white mx-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Start of Experience -->
+    <div id="experience" class="container mx-auto w-full h-full">
+        <div class="relative wrap overflow-hidden p-10 h-full">
+          <div class="items-center justify-center text-gray-900 text-center">
+            <h1 class="mb-10 mt-10 font-bold text-6xl">Experience</h1>
+          </div>
+          <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+
+          <!-------------------- AGS Fulltime -------------------->
+          <div class="mb-8 flex justify-between items-center w-full right-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-blue-300 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">AGS Automotive</p>
+                <p class="font-medium text-gray-800 text-l">I.T. Support Analyst</p>
+                <p class="font-medium text-gray-800 text-l">Sep. 2021 - Present </p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-AGS-Full">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-AGS-Full-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Conducted comprehensive mapping of the office area in one of the company's plants, including identifying network drop names, patch panel names, and switch connections for each room</li>
+                  <li>Demonstrated exceptional interpersonal and problem-solving skills while providing comprehensive user support during multiple complex migrations, including transitioning users from on-prem to hybrid (Azure), switching from Cisco Webex/Jabber to Zoom, and replacing Barracuda RMM with Ninja RMM</li>
+                  <li>Exhibited technical proficiency and project management abilities through efficient and accurate creation, migration, and upgrading of servers</li>
+                  <li>Displayed exceptional organizational and leadership abilities through the successful initiation, planning, and execution of new server room guidelines and procedures, including standardized cabling, racking, and naming conventions for network devices and printers</li>
+                  <li>Spearheaded the development, design, and implementation of a new Active Directory architecture</li>
+                  <li>Manages and maintains user accounts both on-prem and on the cloud together with active directory objects such as users, computers, printers, OUs, and group policies</li>
+                  <li>Quickly and effectively responded to security breaches, phishing attacks, and other pressing issues, demonstrating strong problem-solving and decision-making skills, as well as a commitment to maintaining the highest level of security</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <!-------------------- End of AGS Fulltime -------------------->
+
+          <!-------------------- AGS Coop -------------------->
+          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-yellow-300 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">AGS Automotive</p>
+                <p class="font-medium text-gray-800 text-l">I.T. Support Specialist (Co-op)</p>
+                <p class="font-medium text-gray-800 text-l">Sep. 2020 - May 2021</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-AGS-Coop">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-AGS-Coop-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Delivered first level support to end-users across 5 different company sites, providing both in-person and remote assistance</li>
+                  <li>Installed and configured IT hardware and software, and conducted training sessions to help new employees get started with their technology tools</li>
+                  <li>Demonstrated exceptional customer service by actively listening to customer inquiries and concerns, ensuring complete understanding of their needs, and addressing issues in a timely, efficient, and courteous manner to ensure customer satisfaction</li>
+                  <li>Developed and maintained comprehensive troubleshooting solutions to equip employees with the necessary knowledge to self-resolve issues, resulting in a reduction of support tickets and increased employee proficiency</li>
+                  </ul>  
+              </div>
+            </div>
+          </div>
+
+          <!-------------------- RW&Co -------------------->
+          <div class="mb-8 flex justify-between items-center w-full right-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-green-500 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">Reitmans (Canada) Limited</p>
+                <p class="font-medium text-gray-800 text-l">Sales Associate</p>
+                <p class="font-medium text-gray-800 text-l">Nov. 2019 - Jun. 2021</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-Reitmans">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-Reitmans-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Helped customers locate products and checked store system for merchandise at other sites and made sure they are given the best service while they shop</li>
+                  <li>Supervised changing rooms, rehanging unwanted merchandise and supporting loss prevention initiatives</li>
+                  <li>Drove sales through the engagement of customers, suggestive selling, and sharing product knowledge</li>
+                  <li>Assisted customers in finding the clothing that best suited both them and the occasion</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <!-------------------- End of RW&Co -------------------->
+
+
+          <!-------------------- Seneca -------------------->
+
+          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-red-300 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">Seneca College</p>
+                <p class="font-medium text-gray-800 text-l">Lab Assistant</p>
+                <p class="font-medium text-gray-800 text-l">Jan. 2019 - Jun. 2021</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-Seneca">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-Seneca-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Collaborated with over 250 students to diagnose and resolve issues with their individual lab activities to ensure students received clear and concise guidance</li>
+                  <li>Provided guidance on identifying and resolving recursive errors through effective communication of best practices and workaround strategies</li>
+                  <li>Developed and delivered workshops or training sessions on specific technical topics to help students build their skills and knowledge</li>
+                  <li>Acted as a liaison between students and professors, providing valuable feedback on course materials, assessments, and instructional strategies</li>
+                  </ul>  
+              </div>
+            </div>
+          </div>   
+          <!-------------------- End of Seneca -------------------->
+
+
+          <!-------------------- AV Communications -------------------->
+          <div class="mb-8 flex justify-between items-center w-full right-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-purple-300 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">AV COMMUNICATIONS INC.</p>
+                <p class="font-medium text-gray-800 text-l">Brand Ambassador</p>
+                <p class="font-medium text-gray-800 text-l">Jul. 2017 - Dec. 2019</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-AVComm">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-AVComm-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Increased brand awareness through event marketing, demonstrations, sales and brand promotion</li>
+                  <li>Engaged, educated and befriended customers to deliver amazing shopping experience</li>
+                  <li>Drove sales through the engagement of customers, suggestive selling, and sharing product knowledge</li>
+                  <li>Designed, filled and arranged eye-catching product floorsets to increase sales</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <!-------------------- End of AV Communications -------------------->
+
+
+          <!-------------------- Pedalheads -------------------->
+          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-indigo-300 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">Pedalheads Bike Camp</p>
+                <p class="font-medium text-gray-800 text-l">LCamp Counselor</p>
+                <p class="font-medium text-gray-800 text-l">Jan. 2019 - Jun. 2021</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-Pedalheads">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-Pedalheads-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Collaborated with other camp counselors to design fun and enriching learning activities for campers</li>
+                  <li>Created report cards and maintained open communication with parents about their child&apos;s  progress</li>
+                  <li>Led groups of children safely through variety of biking activities</li>
+                  </ul>  
+              </div>
+            </div>
+          </div>
+          <!-------------------- End of Pedalheads -------------------->
+
+
+          <!-------------------- BestBuy -------------------->
+          <div class="mb-8 flex justify-between items-center w-full right-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-pink-300 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">BestBuy Inc.</p>
+                <p class="font-medium text-gray-800 text-l">Geek Squad Agent</p>
+                <p class="font-medium text-gray-800 text-l">Oct. 2018 - Dec. 2018</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-BestBuy">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-BestBuy-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Contacted clients both by phone and in person to reveal diagnostic discoveries and gave proper recommendationsdepending on the client&apos;s concern</li>
+                  <li>Performed diagnostics, navigate requested and recommended repairs in a timely fashion</li>
+                  <li>Partnered with other team members to ensure client satisfaction</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <!-------------------- BestBuy -------------------->
+
+          <!-------------------- ACSA -------------------->
+          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full"></div>
+
+            <div class="order-1 bg-green-500 rounded-lg shadow-xl w-5/12 px-6 py-4">
+              <div class="text-center"> <!--This div is needed to wrap the entire heading and make them centered -->
+                <p class="font-extrabold text-gray-800 text-xl">Agincourt Community Services Association</p>
+                <p class="font-medium text-gray-800 text-l">Camp Leader</p>
+                <p class="font-medium text-gray-800 text-l">Jun. 2017 - Aug. 2017</p>
+                <button class="text-gray-900 mb-2 text-sm font-bold p-2 rounded-lg hover:bg-gray-600 hover:text-white hover:shadow-md p-2 mx-auto mt-5" onclick="showhide()" id="EXP-ACSA">Show Responsibilities</button>
+              </div>
+              <div class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100" id="EXP-ACSA-responsibilities">
+                <ul class="list-disc ml-10">
+                  <li>Supervised children from 8 to 12 years old while they attended the Summer Camp program</li>
+                  <li>Planned, organized, and led games, sports, arts, crafts, cultural activities, field trips</li>
+                  <li>Managed and supervised equipment, facility, and supply usage</li>
+                  </ul>  
+              </div>
+            </div>
+          </div>
+          <!-------------------- End of ACSA -------------------->
+              
+        </div>
+      </div>
+    <!-- End of Experience -->
+
+
+
+    <!-- Start of Education -->
+    <section class="py-10 bg-gray-100" id="education">
+      <div class="container mx-auto px-4">
+        <h2 class="mb-10 mt-10 font-bold text-6xl text-gray-800 mb-8 text-center">Education</h2>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 hover:shadow-2xl">
+              <h3 class="text-xl font-bold text-gray-700 mb-4 text-center">Advance Diploma: Computer Systems Technology</h3>
+              <p class="text-gray-700 mb-4">Seneca College</p>
+              <p class="text-gray-700">Graduated September 2021</p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 hover:shadow-2xl">
+              <h3 class="text-xl font-bold text-gray-700 mb-4 text-center">Microsoft Certified: Azure Fundamentals</h3>
+              <p class="text-gray-700 mb-4">Microsoft</p>
+              <p class="text-gray-700">Completed April 2021</p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 hover:shadow-2xl">
+              <h3 class="text-xl font-bold text-gray-700 mb-4 text-center">Life Insurance License</h3>
+              <p class="text-gray-700 mb-4">Financial Services Commission of Ontario</p>
+              <p class="text-gray-700">Completed September 2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 hover:shadow-2xl">
+              <h3 class="text-xl font-bold text-gray-700 mb-4 text-center">Principles of Healthy Child Development</h3>
+              <p class="text-gray-700 mb-4">High Five</p>
+              <p class="text-gray-700">Graduated July 2018</p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 hover:shadow-2xl">
+              <h3 class="text-xl font-bold text-gray-700 mb-4 text-center">Ontario Secondary School Diploma</h3>
+              <p class="text-gray-700 mb-4">St. Brother Andre Catholic School</p>
+              <p class="text-gray-700">Completed June 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Education -->
+      
+    <!-- Start of Skills-->  
+    <section class="bg-gray-300 py-10" id="skills">
+      <div class="container mx-auto px-4">
+        <h2 class="mb-10 mt-10 font-bold text-6xl text-gray-800 mb-8 text-center">Technical Proficiencies</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">RMM/Security</h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Barracuda RMM</li>
+              <li>Ninja RMM</li>
+              <li>LanSweeper</li>
+              <li>AVG Managed Workspace</li>
+              <li>Covalence - Field Effects</li>
+              <li>TrendMicro</li>
+              <li>Avast</li>
+              <li>ESET</li>
+              <li>Palo Alto&apos;s GlobalProtect VPN</li>
+              <li>Veeam Backup and Replication</li>
+              <li>KnowBe4</li>
+            </ul>
+          </div>
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">Tools / Applications </h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Brackets</li>
+              <li>Cisco Webex</li>
+              <li>Cisco Jabber</li>
+              <li>Putty</li>
+              <li>VNC</li>
+              <li>VMWare</li>
+              <li>VirtualBox</li>
+              <li>Wireshark</li>
+            </ul>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold text-gray-700 mb-4">Microsoft</h3>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 px-4">
+              <ul class="list-disc list-inside">
+                <li>Azure</li>
+                <li>Excel</li>
+                <li>Forms</li>
+                <li>OneDrive</li>
+                <li>OneNote</li>
+                <li>Outlook</li>
+                <li>PowerPoint</li>
+                <li>PowerBI</li>
+              </ul>
+            </div>
+            <div class="w-full md:w-1/2 px-4">
+              <ul class="list-disc list-inside">
+                <li>SharePoint</li>
+                <li>Streams</li>
+                <li>Sway</li>
+                <li>To-Do</li>
+                <li>Visio</li>
+                <li>Visual Studio</li>
+                <li>Word</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">Programming Languages</h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>C++</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>MySQL</li>
+              <li>PowerShell</li>
+              <li>Python</li>
+            </ul>
+          </div>
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">Installation / Administration: Windows</h3>
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full md:w-1/2 px-4">
+                <ul class="list-disc list-inside">
+                  <li>Active Directory</li>
+                  <li>Clustering</li>
+                  <li>DHCP</li>
+                  <li>DNS</li>
+                  <li>File Server/Sharing</li>
+                  <li>Firewall</li>
+                </ul>
+              </div>
+              <div class="w-full md:w-1/2 px-4">
+                <ul class="list-disc list-inside">
+                  <li>Group Policy</li>
+                  <li>Mail Server</li>
+                  <li>Network Storage</li>
+                  <li>Printer Management</li>
+                  <li>Web Server</li>
+                </ul>
+              </div>
+            </div>
+            </div>      
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">Installation / Administration: Linux</h3>
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full md:w-1/2 px-4">
+                <ul class="list-disc list-inside">
+                  <li>Ansible</li>
+                  <li>DHCP</li>
+                  <li>DNS</li>
+                  <li>Firewall</li>
+                </ul>
+              </div>
+              <div class="w-full md:w-1/2 px-4">
+                <ul class="list-disc list-inside">
+                  <li>LDAP</li>
+                  <li>Mail Server</li>
+                  <li>Nagios</li>
+                  <li>Puppet</li>
+                </ul>
+              </div>
+            </div>
+            </div> 
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">Web Apps</h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Adobe Admin Portal</li>
+              <li>Autodesk Portal</li>
+              <li>Solarwinds - Ticketing System</li>
+              <li>Zoom Portal</li>
+            </ul>
+          </div>
+
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold text-gray-700 mb-4">Web Development</h3>
+            <ul class="list-disc list-inside text-gray-700">
+              <li>Bootstrap</li>
+              <li>CSS</li>
+              <li>HTML5</li>
+              <li>SCSS</li>
+              <li>TailwindCSS</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+</body>
+</html>
+
